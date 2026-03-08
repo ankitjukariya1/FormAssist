@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@utility text-shadow-white {
+  text-shadow: 1px 1px 14px white;
+}
