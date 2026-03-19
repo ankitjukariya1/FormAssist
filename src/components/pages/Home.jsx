@@ -1,7 +1,7 @@
 import ServiceCard from "../common/Services";
 import SearchBarHome from "../Home/SearchBarHome";
 import PopularForm from "../Home/PopularForm";
-import ContactUs from "../common/ContactUS";
+import ContactUs from "../common/ContactUs";
 
 const Home = () => {
  

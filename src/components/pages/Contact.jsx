@@ -1,4 +1,4 @@
-import ContactUs from "../common/ContactUS";
+import ContactUs from "../common/ContactUs";
 
 const Contact = ()=>{
 return (
