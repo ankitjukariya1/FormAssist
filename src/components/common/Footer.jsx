@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="space-y-5">
             <Logo className="mx-0" />
             <p className="max-w-md text-sm leading-7 text-blue-50/78 sm:text-base">
-              Helping users fill forms with confidence through guided assistance, document verification support, and direct follow-up when a 
+              Helping users fill forms with confidence through guided assistance, document verification support, and direct follow-up when a
               process gets stuck.
             </p>
             <div className="grid gap-3 text-sm text-blue-50/80 sm:grid-cols-3 lg:grid-cols-1">
@@ -47,8 +47,7 @@ const Footer = () => {
                   key={item.title}
                   to={item.link}
                   className={({ isActive }) =>
-                    `w-fit text-sm transition-colors duration-200 ${
-                      isActive ? "text-white" : "text-blue-50/72 hover:text-white"
+                    `w-fit text-sm transition-colors duration-200 ${isActive ? "text-white" : "text-blue-50/72 hover:text-white"
                     }`
                   }
                 >

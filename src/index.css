@@ -1,4 +1,30 @@
 @import "tailwindcss";
+
 @utility text-shadow-white {
   text-shadow: 1px 1px 14px white;
+}
+
+@keyframes slideAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ input::placeholder, .home , .Service-page {
+  animation: slideAnimation 0.8s ease-in-out;
+}
+
+/* agr input jinka type text h unpe krna h to input[type="text"]  */
+
+input::placeholder {
+  font-weight: 500;
+}
+
+input:focus::placeholder {
+  opacity: 0.5;
 }

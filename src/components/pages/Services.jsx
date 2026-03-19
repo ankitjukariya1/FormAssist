@@ -1,6 +1,7 @@
+import ServiceCard from "../common/Services";
 const Services = ()=>{
 return (
-  <p>You are in Services page</p>
+  <div className="Service-page"><ServiceCard ></ServiceCard></div>
 )
 }
 export default Services;

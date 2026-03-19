@@ -1,6 +1,8 @@
+import ContactUs from "../common/ContactUS";
+
 const Contact = ()=>{
 return (
-  <p>You are in Contact page</p>
+ <div className="contact-page  min-h-screen flex items-center justify-center "> <ContactUs></ContactUs></div>
 )
 }
 export default Contact;
